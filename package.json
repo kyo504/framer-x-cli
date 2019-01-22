@@ -1,0 +1,22 @@
+{
+  "name": "framer-x-cli",
+  "version": "0.0.1",
+  "description": "Framer X command line tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyo504/framer-x-cli.git"
+  },
+  "keywords": [
+    "framer"
+  ],
+  "author": "Daniel Jung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyo504/framer-x-cli/issues"
+  },
+  "homepage": "https://github.com/kyo504/framer-x-cli#readme"
+}
