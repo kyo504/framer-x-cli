@@ -20,7 +20,7 @@ $ npm install -g framer-x-cli
 $ framer-x-cli COMMAND
 running command...
 $ framer-x-cli (-v|--version|version)
-framer-x-cli/0.0.2 darwin-x64 node-v10.15.0
+framer-x-cli/0.0.3 darwin-x64 node-v10.15.0
 $ framer-x-cli --help [COMMAND]
 USAGE
   $ framer-x-cli COMMAND
@@ -29,9 +29,26 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`framer-x-cli delete [FILE]`](#framer-x-cli-delete-file)
 * [`framer-x-cli hello [FILE]`](#framer-x-cli-hello-file)
 * [`framer-x-cli help [COMMAND]`](#framer-x-cli-help-command)
 * [`framer-x-cli init [FILE]`](#framer-x-cli-init-file)
+
+## `framer-x-cli delete [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ framer-x-cli delete [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/delete.ts](https://github.com/kyo504/framer-x-cli/blob/v0.0.3/src/commands/delete.ts)_
 
 ## `framer-x-cli hello [FILE]`
 
@@ -51,7 +68,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/kyo504/framer-x-cli/blob/v0.0.2/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/kyo504/framer-x-cli/blob/v0.0.3/src/commands/hello.ts)_
 
 ## `framer-x-cli help [COMMAND]`
 
@@ -84,5 +101,5 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/init.ts](https://github.com/kyo504/framer-x-cli/blob/v0.0.2/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/kyo504/framer-x-cli/blob/v0.0.3/src/commands/init.ts)_
 <!-- commandsstop -->
