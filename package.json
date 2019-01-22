@@ -1,7 +1,7 @@
 {
   "name": "framer-x-cli",
   "description": "Framer X command line tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Daniel Jung",
   "bin": {
     "framer-x-cli": "./bin/run"
